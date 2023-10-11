@@ -16,8 +16,8 @@ JSON  with Database Integration
 ## API
 Endpoints
 
-Endpoint: /Name
-http://127.0.0.1/api/public/Name
+Endpoint: /postName
+http://127.0.0.1/api/public/postName
 
 - Method: 
 - Function: Inserts a new name into the database.
@@ -54,14 +54,14 @@ http://127.0.0.1/api/public/deleteName
 Payload
 
 JSON Payload Name:
-
+- JSON Payload postName:
 - Request payload:
 - {
   "lname":"hortizuela",
    "fname":"manny"
 }
 
- JSON Payload printName:
+JSON Payload printName:
  
 Request payload:
 
@@ -121,10 +121,10 @@ Follow these steps to manipulate database information using man and the API endp
 Ensure that man is installed and operational on your system.
 
 2. Send a  Request to Insert Data:
-To insert data into the database via the /api/public/Name endpoint:
+To insert data into the database via the /api/public/postNameendpoint:
 
 Choose the HTTP method as .
-Input the URL: http://127.0.0.1/api/public/Name.
+Input the URL: http://127.0.0.1/api/public/postName.
 Within the request body, specify the parameters fname and lname along with the desired values for insertion.
 Click "Send" to dispatch the request.
 
