@@ -115,10 +115,10 @@ JSON Payload deleteName:
 
 
 ## Usage
-Follow these steps to manipulate database information using man and the API endpoints:
+Follow these steps to manipulate database information using postman and the API endpoints:
 
 1. Launch postman:
-Ensure that man is installed and operational on your system.
+Ensure that postman is installed and operational on your system.
 
 2. Send a  Request to Insert Data:
 To insert data into the database via the /api/public/postName endpoint:
