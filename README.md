@@ -2,7 +2,7 @@
 
 # API Name
 
-JSON POST with Database Integration
+JSON  with Database Integration
 
 -Brief Description
 - This API endpoint facilitates clients in sending organized data to a server for the purpose of creating or modifying records. The data is transmitted in JSON format, providing flexibility and convenience in handling. Following processing, the server responds with an HTTP status code and the required JSON. It finds application in tasks such as user registration, data modifications, and customized workflows, all under a secure authentication system. Please consult the official documentation for details on endpoint prerequisites and protocols for handling errors.
@@ -16,10 +16,10 @@ JSON POST with Database Integration
 ## API
 Endpoints
 
-Endpoint: /postName
-http://127.0.0.1/api/public/postName
+Endpoint: /Name
+http://127.0.0.1/api/public/Name
 
-- Method: POST
+- Method: 
 - Function: Inserts a new name into the database.
 - Required Parameters (in JSON body):
    - fname: The first name.
@@ -28,7 +28,7 @@ http://127.0.0.1/api/public/postName
 Endpoint: /printName
 http://127.0.0.1/api/public/printName
 
-- Method: POST
+- Method: 
 - Function: Always returns a predefined set of names in JSON format.
 - No Required Parameters.
 
@@ -53,7 +53,7 @@ http://127.0.0.1/api/public/deleteName
 ## Request
 Payload
 
-JSON Payload postName:
+JSON Payload Name:
 
 - Request payload:
 - {
@@ -83,7 +83,7 @@ JSON Payload deleteName:
 
 
 ## Response
-JSON Payload postName:
+JSON Payload Name:
 
 - Response payload:
 - {
@@ -115,40 +115,40 @@ JSON Payload deleteName:
 
 
 ## Usage
-Follow these steps to manipulate database information using Postman and the API endpoints:
+Follow these steps to manipulate database information using man and the API endpoints:
 
-1. Launch Postman:
-Ensure that Postman is installed and operational on your system.
+1. Launch man:
+Ensure that man is installed and operational on your system.
 
-2. Send a POST Request to Insert Data:
-To insert data into the database via the /api/public/postName endpoint:
+2. Send a  Request to Insert Data:
+To insert data into the database via the /api/public/Name endpoint:
 
-Choose the HTTP method as POST.
-Input the URL: http://127.0.0.1/api/public/postName.
+Choose the HTTP method as .
+Input the URL: http://127.0.0.1/api/public/Name.
 Within the request body, specify the parameters fname and lname along with the desired values for insertion.
 Click "Send" to dispatch the request.
 
-3.Send a POST Request to Update Data:
-To update existing database entries using the /api/public/postUpdate endpoint:
+3.Send a  Request to Update Data:
+To update existing database entries using the /api/public/updateName endpoint:
 
-Select the HTTP method as POST.
-Enter the URL: http://127.0.0.1/api/public/postUpdate.
+Select the HTTP method as .
+Enter the URL: http://127.0.0.1/api/public/updateName.
 In the request body, include the parameters id, fname, and lname, along with the updated values.
 Click "Send" to submit the request.
 
-4.Send a POST Request to Print Data:
-To showcase database data using the /api/public/postPrint endpoint:
+4.Send a  Request to Print Data:
+To showcase database data using the /api/public/printName endpoint:
 
-Opt for the HTTP method as POST.
-Specify the URL: http://127.0.0.1/api/public/postPrint.
+Opt for the HTTP method as .
+Specify the URL: http://127.0.0.1/api/public/printName.
 Keep the request body empty as no additional parameters are required.
 Click "Send" to transmit the request.
 
-5. Send a POST Request to Delete Data:
-To remove data from the database through the /api/public/postDelete endpoint:
+5. Send a  Request to Delete Data:
+To remove data from the database through the /api/public/deleteName endpoint:
 
-Set the HTTP method to POST.
-Enter the URL: http://127.0.0.1/api/public/postDelete.
+Set the HTTP method to .
+Enter the URL: http://127.0.0.1/api/public/deleteName.
 In the request body, include the parameter id with the ID of the data you intend to delete.
 
 Click "Send" to initiate the request.
