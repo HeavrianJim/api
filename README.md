@@ -3,7 +3,7 @@
 # API Name
 
 JSON  with Database Integration
-
+ 
 -Brief Description
 - This API endpoint facilitates clients in sending organized data to a server for the purpose of creating or modifying records. The data is transmitted in JSON format, providing flexibility and convenience in handling. Following processing, the server responds with an HTTP status code and the required JSON. It finds application in tasks such as user registration, data modifications, and customized workflows, all under a secure authentication system. Please consult the official documentation for details on endpoint prerequisites and protocols for handling errors.
  
